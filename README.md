@@ -11,3 +11,11 @@ We need to merge both products into our annual counts to accurately measure cust
 ❓ Questions:
 Which year records a higher count of inactive subscriptions?
 How many active subscriptions can we deduce from the total subscriptions?
+
+
+💡 Insights:
+🧐 Activity Dip in 2023: In 2023, we observed a decline in activity. Non-active subscriptions increased compared to the previous year, hinting at changes during this time.
+
+🚫 80% User Activity: Currently, 8 out of 10 users are actively engaging with the app. However, we've experienced a loss of 1 out of 10 active users compared to the previous year.
+
+📈 Binary Count for Insight: Given this data scenario, utilizing a binary count system where 1 represents active and 0 represents inactive can offer a simplified approach for assessing qualitative data. 🛠️🔍
