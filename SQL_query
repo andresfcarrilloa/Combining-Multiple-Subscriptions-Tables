@@ -1,0 +1,23 @@
+WITH all_subscriptions AS(
+SELECT 
+	*
+FROM 
+	Subscriptionsproduct1
+WHERE
+    active = 1
+UNION
+SELECT 
+	*
+FROM
+	Subscriptionsproduct2
+WHERE
+    active = 1)
+SELECT
+    date_trunc('year', expirationdate) AS exp_year,
+    COUNT(*) AS subscriptions
+FROM
+    all_subscriptions
+GROUP BY
+    date_trunc('year', expirationdate)
+
+
